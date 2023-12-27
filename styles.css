@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .form {
+    margin-bottom: 20px;
+  }
+  
+  .form label, .form input {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .patients-list {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+  }
+  
+  .patients-list h2 {
+    margin-top: 0;
+  }
+  /* styles.css */
+
+.add-btn {
+    padding: 8px 12px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .add-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .edit-btn,
+  .delete-btn {
+    padding: 6px 10px;
+    border: none;
+    background-color: #f44336;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .edit-btn:hover,
+  .delete-btn:hover {
+    background-color: #d32f2f;
+  }
+  
